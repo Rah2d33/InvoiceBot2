@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="869.6,1892.8" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:upr="clr-namespace:UiPath.Platform.ResourceHandling;assembly=UiPath.Platform" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="869.6,2038.4" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:upr="clr-namespace:UiPath.Platform.ResourceHandling;assembly=UiPath.Platform" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -85,7 +85,7 @@
       <AssemblyReference>UiPath.Platform</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="715.2,1828" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="715.2,1973.6" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="upr:ILocalResource" Name="folder">
         <sap:WorkflowViewStateService.ViewState>
@@ -101,7 +101,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="Folder Creation Sequence" sap:VirtualizedContainerService.HintSize="652.8,1739.2" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence DisplayName="Folder Creation Sequence" sap:VirtualizedContainerService.HintSize="652.8,1884.8" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <Sequence.Variables>
         <Variable x:TypeArguments="x:String" Name="desktopPath" />
         <Variable x:TypeArguments="x:String" Name="uniqueFolderName" />
@@ -211,7 +211,7 @@
                 </scg:List>
               </ui:MultipleAssign.AssignOperations>
             </ui:MultipleAssign>
-            <If Condition="[lastWriteTime.Date = DateTime.Today AndAlso&#xD;&#xA;        (file.EndsWith(&quot;.pdf&quot;, StringComparison.OrdinalIgnoreCase) OrElse&#xD;&#xA;         file.EndsWith(&quot;.jpeg&quot;, StringComparison.OrdinalIgnoreCase) OrElse&#xD;&#xA;         file.EndsWith(&quot;.png&quot;, StringComparison.OrdinalIgnoreCase) OrElse&#xD;&#xA;         file.EndsWith(&quot;.jpg&quot;, StringComparison.OrdinalIgnoreCase) OrElse&#xD;&#xA;         file.EndsWith(&quot;.img&quot;, StringComparison.OrdinalIgnoreCase) OrElse&#xD;&#xA;         file.EndsWith(&quot;.txt&quot;, StringComparison.OrdinalIgnoreCase))]" sap:VirtualizedContainerService.HintSize="478.4,533.6" sap2010:WorkflowViewState.IdRef="If_1">
+            <If Condition="[lastWriteTime.Date = DateTime.Today AndAlso&#xA;        (file.EndsWith(&quot;.pdf&quot;, StringComparison.OrdinalIgnoreCase) OrElse&#xA;         file.EndsWith(&quot;.jpeg&quot;, StringComparison.OrdinalIgnoreCase) OrElse&#xA;         file.EndsWith(&quot;.png&quot;, StringComparison.OrdinalIgnoreCase) OrElse&#xA;         file.EndsWith(&quot;.jpg&quot;, StringComparison.OrdinalIgnoreCase) OrElse&#xA;         file.EndsWith(&quot;.img&quot;, StringComparison.OrdinalIgnoreCase) OrElse&#xA;         file.EndsWith(&quot;.txt&quot;, StringComparison.OrdinalIgnoreCase))]" sap:VirtualizedContainerService.HintSize="478.4,533.6" sap2010:WorkflowViewState.IdRef="If_1">
               <If.Then>
                 <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,269.6" sap2010:WorkflowViewState.IdRef="Sequence_3">
                   <sap:WorkflowViewStateService.ViewState>
@@ -235,7 +235,14 @@
           </Sequence>
         </ActivityAction>
       </ParallelForEach>
-      <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="590.4,108.8" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;Files have been moved&quot;]" />
+      <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="590.4,117.6" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;Files have been moved&quot;]" />
+      <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Data Extraction Sequence.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="590.4,136.8" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="Data Extraction Sequence.xaml">
+        <ui:InvokeWorkflowFile.Arguments>
+          <InArgument x:TypeArguments="x:String" x:Key="createdDesktopFolderPath">
+            <VisualBasicValue x:TypeArguments="x:String" ExpressionText="folderPath" />
+          </InArgument>
+        </ui:InvokeWorkflowFile.Arguments>
+      </ui:InvokeWorkflowFile>
     </Sequence>
   </Sequence>
 </Activity>
