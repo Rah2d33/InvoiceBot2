@@ -1,0 +1,30 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "folder&Sequence_1",
+        "fileExtension&Sequence_2",
+        "lastWriteTime&Sequence_2",
+        "downloadsFileArray&Sequence_2",
+        "todayDate&Sequence_2",
+        "downloadsPath&Sequence_2",
+        "folderPath&Sequence_2",
+        "uniqueFolderName&Sequence_2",
+        "desktopPath&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}

@@ -6,7 +6,7 @@
   "dependencies": {
     "UiPath.DocumentUnderstanding.ML.Activities": "[1.21.3]",
     "UiPath.Excel.Activities": "[2.22.3]",
-    "UiPath.Form.Activities": "[2.0.7]",
+    "UiPath.Form.Activities": "[24.4.1-preview]",
     "UiPath.GitHub.IntegrationService.Activities": "[5.0.7]",
     "UiPath.IntelligentOCR.Activities": "[6.9.6]",
     "UiPath.Mail.Activities": "[1.21.1]",
@@ -50,7 +50,6 @@
       "ignoredFiles": []
     },
     "fileInfoCollection": [],
-    "modernBehavior": true,
     "saveToCloud": false
   },
   "expressionLanguage": "VisualBasic",
