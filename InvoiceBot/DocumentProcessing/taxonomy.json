@@ -2,6 +2,7 @@
   "DataContractVersion": "1.1",
   "DocumentTypes": [
     {
+      "Connections": null,
       "DocumentTypeId": "iOCO.AccountsPayable.VendorsInvoices",
       "Group": "iOCO",
       "Category": "Accounts Payable",
@@ -31,7 +32,8 @@
             }
           ],
           "RuleSet": null,
-          "DefaultValue": ""
+          "DefaultValue": "",
+          "DataSource": null
         },
         {
           "FieldId": "iOCO.AccountsPayable.VendorsInvoices.From",
@@ -52,7 +54,8 @@
             }
           ],
           "RuleSet": null,
-          "DefaultValue": ""
+          "DefaultValue": "",
+          "DataSource": null
         },
         {
           "FieldId": "iOCO.AccountsPayable.VendorsInvoices.BillTo",
@@ -73,7 +76,8 @@
             }
           ],
           "RuleSet": null,
-          "DefaultValue": ""
+          "DefaultValue": "",
+          "DataSource": null
         },
         {
           "FieldId": "iOCO.AccountsPayable.VendorsInvoices.SendersAddress",
@@ -94,7 +98,8 @@
             }
           ],
           "RuleSet": null,
-          "DefaultValue": ""
+          "DefaultValue": "",
+          "DataSource": null
         },
         {
           "FieldId": "iOCO.AccountsPayable.VendorsInvoices.ReceiversAddress",
@@ -115,13 +120,14 @@
             }
           ],
           "RuleSet": null,
-          "DefaultValue": ""
+          "DefaultValue": "",
+          "DataSource": null
         },
         {
           "FieldId": "iOCO.AccountsPayable.VendorsInvoices.ContactDetails",
           "FieldName": "Contact Details",
           "IsMultiValue": false,
-          "Type": "Text",
+          "Type": "Number",
           "DeriveFieldsFormat": "",
           "Components": [],
           "SetValues": [],
@@ -136,7 +142,8 @@
             }
           ],
           "RuleSet": null,
-          "DefaultValue": ""
+          "DefaultValue": "",
+          "DataSource": null
         },
         {
           "FieldId": "iOCO.AccountsPayable.VendorsInvoices.InvNo",
@@ -157,7 +164,8 @@
             }
           ],
           "RuleSet": null,
-          "DefaultValue": ""
+          "DefaultValue": "",
+          "DataSource": null
         },
         {
           "FieldId": "iOCO.AccountsPayable.VendorsInvoices.CompanyVatReg",
@@ -178,7 +186,8 @@
             }
           ],
           "RuleSet": null,
-          "DefaultValue": ""
+          "DefaultValue": "",
+          "DataSource": null
         },
         {
           "FieldId": "iOCO.AccountsPayable.VendorsInvoices.PONo",
@@ -199,7 +208,8 @@
             }
           ],
           "RuleSet": null,
-          "DefaultValue": ""
+          "DefaultValue": "",
+          "DataSource": null
         },
         {
           "FieldId": "iOCO.AccountsPayable.VendorsInvoices.VATNo",
@@ -220,7 +230,8 @@
             }
           ],
           "RuleSet": null,
-          "DefaultValue": ""
+          "DefaultValue": "",
+          "DataSource": null
         },
         {
           "FieldId": "iOCO.AccountsPayable.VendorsInvoices.TaxNO",
@@ -241,7 +252,8 @@
             }
           ],
           "RuleSet": null,
-          "DefaultValue": ""
+          "DefaultValue": "",
+          "DataSource": null
         },
         {
           "FieldId": "iOCO.AccountsPayable.VendorsInvoices.Description",
@@ -262,7 +274,8 @@
             }
           ],
           "RuleSet": null,
-          "DefaultValue": ""
+          "DefaultValue": "",
+          "DataSource": null
         },
         {
           "FieldId": "iOCO.AccountsPayable.VendorsInvoices.Service",
@@ -283,7 +296,8 @@
             }
           ],
           "RuleSet": null,
-          "DefaultValue": ""
+          "DefaultValue": "",
+          "DataSource": null
         },
         {
           "FieldId": "iOCO.AccountsPayable.VendorsInvoices.Qauntity",
@@ -304,7 +318,8 @@
             }
           ],
           "RuleSet": null,
-          "DefaultValue": ""
+          "DefaultValue": "",
+          "DataSource": null
         },
         {
           "FieldId": "iOCO.AccountsPayable.VendorsInvoices.Hours",
@@ -325,7 +340,8 @@
             }
           ],
           "RuleSet": null,
-          "DefaultValue": ""
+          "DefaultValue": "",
+          "DataSource": null
         },
         {
           "FieldId": "iOCO.AccountsPayable.VendorsInvoices.Rate",
@@ -346,7 +362,8 @@
             }
           ],
           "RuleSet": null,
-          "DefaultValue": ""
+          "DefaultValue": "",
+          "DataSource": null
         },
         {
           "FieldId": "iOCO.AccountsPayable.VendorsInvoices.UnitPrice",
@@ -367,7 +384,8 @@
             }
           ],
           "RuleSet": null,
-          "DefaultValue": ""
+          "DefaultValue": "",
+          "DataSource": null
         },
         {
           "FieldId": "iOCO.AccountsPayable.VendorsInvoices.Price",
@@ -388,7 +406,8 @@
             }
           ],
           "RuleSet": null,
-          "DefaultValue": ""
+          "DefaultValue": "",
+          "DataSource": null
         },
         {
           "FieldId": "iOCO.AccountsPayable.VendorsInvoices.BankName",
@@ -409,7 +428,8 @@
             }
           ],
           "RuleSet": null,
-          "DefaultValue": ""
+          "DefaultValue": "",
+          "DataSource": null
         },
         {
           "FieldId": "iOCO.AccountsPayable.VendorsInvoices.BranchCode",
@@ -430,7 +450,8 @@
             }
           ],
           "RuleSet": null,
-          "DefaultValue": ""
+          "DefaultValue": "",
+          "DataSource": null
         },
         {
           "FieldId": "iOCO.AccountsPayable.VendorsInvoices.BankAccNo",
@@ -451,7 +472,8 @@
             }
           ],
           "RuleSet": null,
-          "DefaultValue": ""
+          "DefaultValue": "",
+          "DataSource": null
         },
         {
           "FieldId": "iOCO.AccountsPayable.VendorsInvoices.Subtotal",
@@ -472,7 +494,8 @@
             }
           ],
           "RuleSet": null,
-          "DefaultValue": ""
+          "DefaultValue": "",
+          "DataSource": null
         },
         {
           "FieldId": "iOCO.AccountsPayable.VendorsInvoices.Total",
@@ -493,7 +516,8 @@
             }
           ],
           "RuleSet": null,
-          "DefaultValue": ""
+          "DefaultValue": "",
+          "DataSource": null
         }
       ]
     }
