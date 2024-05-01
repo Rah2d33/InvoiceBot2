@@ -4,12 +4,14 @@
   "description": "Blank Process",
   "main": "Main.xaml",
   "dependencies": {
+    "UiPath.DocumentProcessing.Contracts": "[1.26.0]",
     "UiPath.DocumentUnderstanding.ML.Activities": "[1.21.3]",
     "UiPath.Excel.Activities": "[2.22.3]",
     "UiPath.Form.Activities": "[24.4.1-preview]",
     "UiPath.GitHub.IntegrationService.Activities": "[5.0.7]",
     "UiPath.IntelligentOCR.Activities": "[6.9.6]",
     "UiPath.Mail.Activities": "[1.21.1]",
+    "UiPath.OCR.Contracts": "[2.16.0]",
     "UiPath.OmniPage.Activities": "[1.17.0]",
     "UiPath.Persistence.Activities": "[1.5.5]",
     "UiPath.System.Activities": "[23.10.6]",
@@ -50,6 +52,7 @@
       "ignoredFiles": []
     },
     "fileInfoCollection": [],
+    "modernBehavior": false,
     "saveToCloud": false
   },
   "expressionLanguage": "VisualBasic",

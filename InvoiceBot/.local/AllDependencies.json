@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net8.0-windows7.0": {
+    "net6.0-windows7.0": {
       "AutoMapper/9.0.0": {
         "type": "package",
         "dependencies": {
@@ -4130,13 +4130,16 @@
       },
       "System.Text.Encodings.Web/7.0.0": {
         "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
         "compile": {
-          "lib/net7.0/_._": {
+          "lib/net6.0/_._": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net7.0/System.Text.Encodings.Web.dll": {
+          "lib/net6.0/System.Text.Encodings.Web.dll": {
             "related": ".xml"
           }
         },
@@ -4144,7 +4147,7 @@
           "buildTransitive/net6.0/_._": {}
         },
         "runtimeTargets": {
-          "runtimes/browser/lib/net7.0/System.Text.Encodings.Web.dll": {
+          "runtimes/browser/lib/net6.0/System.Text.Encodings.Web.dll": {
             "assetType": "runtime",
             "rid": "browser"
           }
@@ -4153,15 +4156,16 @@
       "System.Text.Json/7.0.3": {
         "type": "package",
         "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0",
           "System.Text.Encodings.Web": "7.0.0"
         },
         "compile": {
-          "lib/net7.0/_._": {
+          "lib/net6.0/_._": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net7.0/System.Text.Json.dll": {
+          "lib/net6.0/System.Text.Json.dll": {
             "related": ".xml"
           }
         },
@@ -4499,7 +4503,7 @@
           "lib/net5.0/ConnectionClient.dll": {}
         }
       },
-      "UiPath.DocumentProcessing.Contracts/1.21.1": {
+      "UiPath.DocumentProcessing.Contracts/1.26.0": {
         "type": "package",
         "dependencies": {
           "Newtonsoft.Json": "13.0.1"
@@ -7053,7 +7057,7 @@
         }
       }
     },
-    "net8.0-windows7.0/win-x64": {
+    "net6.0-windows7.0/win10-x64": {
       "AutoMapper/9.0.0": {
         "type": "package",
         "dependencies": {
@@ -8158,7 +8162,14 @@
         "type": "package"
       },
       "Microsoft.Management.Infrastructure.Runtime.Win/2.0.0": {
-        "type": "package"
+        "type": "package",
+        "runtime": {
+          "runtimes/win10-x64/lib/netstandard1.6/Microsoft.Management.Infrastructure.Native.dll": {},
+          "runtimes/win10-x64/lib/netstandard1.6/Microsoft.Management.Infrastructure.dll": {}
+        },
+        "native": {
+          "runtimes/win10-x64/native/_._": {}
+        }
       },
       "Microsoft.NETCore.Platforms/5.0.0": {
         "type": "package",
@@ -8952,7 +8963,8 @@
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
-          "Microsoft.NETCore.Targets": "1.1.0"
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "runtime.win7-x64.runtime.native.System.IO.Compression": "4.3.2"
         },
         "compile": {
           "lib/netstandard1.0/_._": {}
@@ -9183,6 +9195,21 @@
         },
         "runtime": {
           "runtimes/win/lib/netstandard1.5/System.Runtime.Extensions.dll": {}
+        }
+      },
+      "runtime.win7-x64.runtime.native.System.IO.Compression/4.3.2": {
+        "type": "package",
+        "native": {
+          "runtimes/win7-x64/native/_._": {}
+        }
+      },
+      "runtime.win7.System.Private.Uri/4.3.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard/_._": {}
+        },
+        "runtime": {
+          "runtimes/win/lib/netstandard1.0/System.Private.Uri.dll": {}
         }
       },
       "SharpZipLib/1.3.3": {
@@ -10263,7 +10290,8 @@
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
-          "Microsoft.NETCore.Targets": "1.1.0"
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "runtime.win7.System.Private.Uri": "4.3.0"
         },
         "compile": {
           "ref/netstandard/_._": {}
@@ -11001,13 +11029,16 @@
       },
       "System.Text.Encodings.Web/7.0.0": {
         "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
         "compile": {
-          "lib/net7.0/_._": {
+          "lib/net6.0/_._": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net7.0/System.Text.Encodings.Web.dll": {
+          "lib/net6.0/System.Text.Encodings.Web.dll": {
             "related": ".xml"
           }
         },
@@ -11018,15 +11049,16 @@
       "System.Text.Json/7.0.3": {
         "type": "package",
         "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0",
           "System.Text.Encodings.Web": "7.0.0"
         },
         "compile": {
-          "lib/net7.0/_._": {
+          "lib/net6.0/_._": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net7.0/System.Text.Json.dll": {
+          "lib/net6.0/System.Text.Json.dll": {
             "related": ".xml"
           }
         },
@@ -11371,7 +11403,7 @@
           "lib/net5.0/ConnectionClient.dll": {}
         }
       },
-      "UiPath.DocumentProcessing.Contracts/1.21.1": {
+      "UiPath.DocumentProcessing.Contracts/1.26.0": {
         "type": "package",
         "dependencies": {
           "Newtonsoft.Json": "13.0.1"
@@ -17576,6 +17608,38 @@
         "runtimes/win/lib/net/_._",
         "runtimes/win/lib/netcore50/System.Runtime.Extensions.dll",
         "runtimes/win/lib/netstandard1.5/System.Runtime.Extensions.dll"
+      ]
+    },
+    "runtime.win7-x64.runtime.native.System.IO.Compression/4.3.2": {
+      "sha512": "QZj+xNVPDGJV1hs/bW5HIhiN/LOpKvmPlJiWr9H2kqucFKD0ZzZJYzJbE1W267QEe/Rl+WXODdmfrZuv8b9tVw==",
+      "type": "package",
+      "path": "runtime.win7-x64.runtime.native.system.io.compression/4.3.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "runtime.win7-x64.runtime.native.system.io.compression.4.3.2.nupkg.sha512",
+        "runtime.win7-x64.runtime.native.system.io.compression.nuspec",
+        "runtimes/win7-x64/native/clrcompression.dll",
+        "runtimes/win7-x64/nativeassets/netcore50/clrcompression.dll"
+      ]
+    },
+    "runtime.win7.System.Private.Uri/4.3.0": {
+      "sha512": "Q+IBgaPYicSQs2tBlmXqbS25c/JLIthWrgrpMwxKSOobW/OqIMVFruUGfuaz4QABVzV8iKdCAbN7APY7Tclbnw==",
+      "type": "package",
+      "path": "runtime.win7.system.private.uri/4.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "ref/netstandard/_._",
+        "runtime.win7.system.private.uri.4.3.0.nupkg.sha512",
+        "runtime.win7.system.private.uri.nuspec",
+        "runtimes/aot/lib/netcore50/System.Private.Uri.dll",
+        "runtimes/win/lib/netcore50/System.Private.Uri.dll",
+        "runtimes/win/lib/netstandard1.0/System.Private.Uri.dll"
       ]
     },
     "SharpZipLib/1.3.3": {
@@ -24293,10 +24357,10 @@
         "uipath.connectionclient.nuspec"
       ]
     },
-    "UiPath.DocumentProcessing.Contracts/1.21.1": {
-      "sha512": "jQ9TZCL3MCq8npqG+AyIEcyqIpDRbXReeM2e02FkSkxvKw4pbeh1UoU9x0gDZ3xNUiwXgd+ApZXtDJoeiCjRTA==",
+    "UiPath.DocumentProcessing.Contracts/1.26.0": {
+      "sha512": "eg2J6wHfWaGwd9ZA4r6BGQ3ehQUcLFU/zP3JVrthvOV7XtL9DsJD68vEv4yAozmsR6VnjXQH5Qvlyn5xEug7zg==",
       "type": "package",
-      "path": "uipath.documentprocessing.contracts/1.21.1",
+      "path": "uipath.documentprocessing.contracts/1.26.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -24304,7 +24368,7 @@
         "lib/net461/UiPath.DocumentProcessing.Contracts.xml",
         "lib/net6.0/UiPath.DocumentProcessing.Contracts.dll",
         "lib/net6.0/UiPath.DocumentProcessing.Contracts.xml",
-        "uipath.documentprocessing.contracts.1.21.1.nupkg.sha512",
+        "uipath.documentprocessing.contracts.1.26.0.nupkg.sha512",
         "uipath.documentprocessing.contracts.nuspec"
       ]
     },
@@ -29249,13 +29313,15 @@
   },
   "projectFileDependencyGroups": {
     "": [],
-    "net8.0-windows7.0": [
+    "net6.0-windows7.0": [
+      "UiPath.DocumentProcessing.Contracts >= 1.26.0 <= 1.26.0",
       "UiPath.DocumentUnderstanding.ML.Activities >= 1.21.3 <= 1.21.3",
       "UiPath.Excel.Activities >= 2.22.3 <= 2.22.3",
       "UiPath.Form.Activities >= 24.4.1-preview <= 24.4.1-preview",
       "UiPath.GitHub.IntegrationService.Activities >= 5.0.7 <= 5.0.7",
       "UiPath.IntelligentOCR.Activities >= 6.9.6 <= 6.9.6",
       "UiPath.Mail.Activities >= 1.21.1 <= 1.21.1",
+      "UiPath.OCR.Contracts >= 2.16.0 <= 2.16.0",
       "UiPath.OmniPage.Activities >= 1.17.0 <= 1.17.0",
       "UiPath.Persistence.Activities >= 1.5.5 <= 1.5.5",
       "UiPath.System.Activities >= 23.10.6 <= 23.10.6",
@@ -29264,23 +29330,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\laren.cloete\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Rahdee.Salie\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
       "projectUniqueName": "InvoiceBot",
       "projectName": "InvoiceBot",
-      "projectPath": "C:\\Users\\laren.cloete\\Documents\\Ioco Projects\\GitHub\\InvoiceBot2\\InvoiceBot\\.local",
-      "packagesPath": "C:\\Users\\laren.cloete\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\laren.cloete\\Documents\\Ioco Projects\\GitHub\\InvoiceBot2\\InvoiceBot\\.local",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ]
+      "projectPath": "C:\\GitHubProjects\\New InvoiceProcessing\\InvoiceBot2\\InvoiceBot\\.local",
+      "packagesPath": "C:\\Users\\Rahdee.Salie\\.nuget\\packages\\",
+      "outputPath": "C:\\GitHubProjects\\New InvoiceProcessing\\InvoiceBot2\\InvoiceBot\\.local"
     },
     "frameworks": {
-      "net8.0-windows7.0": {
+      "net6.0-windows7.0": {
         "dependencies": {
+          "UiPath.DocumentProcessing.Contracts": {
+            "include": "Runtime",
+            "target": "Package",
+            "version": "[1.26.0, 1.26.0]"
+          },
           "UiPath.DocumentUnderstanding.ML.Activities": {
             "include": "Runtime",
             "target": "Package",
@@ -29311,6 +29378,11 @@
             "target": "Package",
             "version": "[1.21.1, 1.21.1]"
           },
+          "UiPath.OCR.Contracts": {
+            "include": "Runtime",
+            "target": "Package",
+            "version": "[2.16.0, 2.16.0]"
+          },
           "UiPath.OmniPage.Activities": {
             "include": "Runtime",
             "target": "Package",
@@ -29337,11 +29409,11 @@
             "version": "[23.10.11, 23.10.11]"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\laren.cloete\\AppData\\Local\\Programs\\UiPath\\Studio\\PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\Rahdee.Salie\\AppData\\Local\\Programs\\UiPath\\Studio\\runtime.json"
       }
     },
     "runtimes": {
-      "win-x64": {
+      "win10-x64": {
         "#import": []
       }
     }
@@ -29354,8 +29426,8 @@
       "message": "UiPath.Persistence.Activities 1.5.5 depends on UiPath.FormActivityLibrary.Contracts (>= 2.0.7-alpha.4234105) but UiPath.FormActivityLibrary.Contracts 2.0.7-alpha.4234105 was not found. An approximate best match of UiPath.FormActivityLibrary.Contracts 2.0.7 was resolved.",
       "libraryId": "UiPath.FormActivityLibrary.Contracts",
       "targetGraphs": [
-        "net8.0-windows7.0",
-        "net8.0-windows7.0/win-x64"
+        "net6.0-windows7.0",
+        "net6.0-windows7.0/win10-x64"
       ]
     }
   ]
