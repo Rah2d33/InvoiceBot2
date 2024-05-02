@@ -237,7 +237,7 @@
           "FieldId": "iOCO.AccountsPayable.VendorsInvoices.TaxNO",
           "FieldName": "Tax NO",
           "IsMultiValue": false,
-          "Type": "Text",
+          "Type": "Number",
           "DeriveFieldsFormat": "",
           "Components": [],
           "SetValues": [],
