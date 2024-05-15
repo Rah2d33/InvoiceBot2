@@ -1,0 +1,30 @@
+Document type - Invoice
+
+Invoice type - Sales/Purchase 
+		Commercial
+		timesheet
+		Credit
+
+{{ Date }}	
+{{ InvoiceNO }}	
+{{ ContactDetails }}	
+{{ PO_Numbers  }}	
+{{ Senders_Company  }}	
+{{ LineItems  }}	
+{{ Services  }}	
+{{ Service_Price  }}	
+{{ Hours  }}	
+{{ Qauntity }}	
+{{ Unit_Price  }}	
+{{ Total  }}	
+{{ Receivers_Company }}	
+{{ Tax  }}	
+{{ VAT  }}	
+{{ Bank_Name  }}	
+{{ Bank_Account_Number  }}	
+{{ Currency  }}	
+{{ Exchange_Currency  }}	
+{{ Change  }}	
+{{ Price  }}	
+{{ Subtotals  }}	
+{{ Totals }}
