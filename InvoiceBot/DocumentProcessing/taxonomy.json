@@ -125,7 +125,7 @@
         },
         {
           "FieldId": "iOCO.AccountsPayable.VendorsInvoices.ContactDetails",
-          "FieldName": "Contact Details",
+          "FieldName": "Receivers Contact Details",
           "IsMultiValue": true,
           "Type": "Text",
           "DeriveFieldsFormat": "",
@@ -139,6 +139,50 @@
             {
               "Key": "Hotkey",
               "Value": "q"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "iOCO.AccountsPayable.VendorsInvoices.SendersContactDetails",
+          "FieldName": "Senders Contact Details",
+          "IsMultiValue": true,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#9ee142"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "8"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "iOCO.AccountsPayable.VendorsInvoices.Email",
+          "FieldName": "Email",
+          "IsMultiValue": true,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#c797d3"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "9"
             }
           ],
           "RuleSet": null,
@@ -227,6 +271,28 @@
             {
               "Key": "Hotkey",
               "Value": "y"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "iOCO.AccountsPayable.VendorsInvoices.Tax%",
+          "FieldName": "VAT %",
+          "IsMultiValue": true,
+          "Type": "Number",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#9b59e1"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "%"
             }
           ],
           "RuleSet": null,
@@ -469,6 +535,28 @@
             {
               "Key": "Hotkey",
               "Value": "5"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "iOCO.AccountsPayable.VendorsInvoices.BankAccountName",
+          "FieldName": "Bank Account Name",
+          "IsMultiValue": false,
+          "Type": "Name",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#8a2767"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "@"
             }
           ],
           "RuleSet": null,
