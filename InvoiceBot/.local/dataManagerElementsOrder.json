@@ -12,6 +12,8 @@
       "Path": "Main.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
+        "MainExcelDataLogSheet&Sequence_6",
+        "wookbookPath&Sequence_6",
         "folderPath&Sequence_1",
         "DT1&Sequence_6",
         "Taxonomy&Sequence_6",
