@@ -63,7 +63,7 @@ if __name__ == "__main__":
 
     # Word doc templates
     template_paths = [
-        "InvoiceWordTemplateDesigns\InvoiceSample1.docx",
+        #"InvoiceWordTemplateDesigns\InvoiceSample1.docx",
        # "InvoiceWordTemplateDesigns\InvoiceSample2.docx",
        # "InvoiceWordTemplateDesigns\InvoiceSample3.docx",
       #  "InvoiceWordTemplateDesigns\InvoiceSample4.docx",
@@ -112,12 +112,18 @@ if __name__ == "__main__":
         #"InvoiceWordTemplateDesigns/InvoiceSample48.docx",
         #"InvoiceWordTemplateDesigns/InvoiceSample49.docx",
         #"InvoiceWordTemplateDesigns/InvoiceSample50.docx",
-        #"InvoiceWordTemplateDesigns/InvoiceSample51.docx"
+        #"InvoiceWordTemplateDesigns/InvoiceSample51.docx",
+        #"Word Invoice Template Designs\InvoiceSample52.docx",
+        #"Word Invoice Template Designs\InvoiceSample53.docx",
+        #"Word Invoice Template Designs\InvoiceSample54.docx",
+        #"Word Invoice Template Designs\InvoiceSample55.docx",
+        #"Word Invoice Template Designs\InvoiceSample56.docx",
+        
 
     ]
 
     # Output folders for Word and PDF files
-    output_folder = "InvoiceFolders"
+    output_folder = "Generated Invoices Folder"
 
     # Create the output folders if they don't exist
     os.makedirs(output_folder, exist_ok=True)
