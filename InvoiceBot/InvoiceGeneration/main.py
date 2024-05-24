@@ -118,7 +118,7 @@ if __name__ == "__main__":
         #"Word Invoice Template Designs\InvoiceSample54.docx",
         #"Word Invoice Template Designs\InvoiceSample55.docx",
         #"Word Invoice Template Designs\InvoiceSample56.docx",
-        
+        "Word Invoice Template Designs\InvoiceSample57.docx"
 
     ]
 
